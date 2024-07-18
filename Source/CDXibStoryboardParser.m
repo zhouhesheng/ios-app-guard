@@ -63,7 +63,7 @@
         NSNumber *isDirectory = nil;
         if ([url getResourceValue:&isDirectory forKey:NSURLIsDirectoryKey error:&error] && ![isDirectory boolValue]) {
             if ([url.absoluteString hasSuffix:@".xib"] || [url.absoluteString hasSuffix:@".storyboard"]) {
-                [self obfuscatedXmlData:url symbols:symbols];
+                [self obfuscatedXmlData:[NSData dataWithContentsOfURL:url] symbols:symbols];
             }
         }
     }

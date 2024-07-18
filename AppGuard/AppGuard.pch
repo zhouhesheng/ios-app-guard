@@ -1,0 +1,11 @@
+#import <Cocoa/Cocoa.h>
+
+#import "ILSLogger.h"
+
+#define kObfuscatingValueSaturation 1
+#define kObfuscatingValueBrightness -0.01
+#define kObfuscatingValueContrast 0.99
+
+#define MYLog(format, ...) ILSLogInfo([[NSString stringWithUTF8String:__FILE__] lastPathComponent], format, ## __VA_ARGS__)
+#define JSON_OBJECT_WITH_STRING(string) (string?[NSJSONSerialization JSONObjectWithData: [string dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:nil]:nil)
+#define JSON_STRING_WITH_OBJ(obj) (obj?[[NSString alloc]initWithData:[NSJSONSerialization dataWithJSONObject:obj options:kNilOptions error:nil] encoding:NSUTF8StringEncoding]:nil)

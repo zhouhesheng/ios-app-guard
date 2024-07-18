@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BD22854A78593C928604530566C32E5F7AB0CBAD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BD22854A78593C928604530566C32E5F7AB0CBAD" : 0,
+    "99182CFD44B9B48629862FD77505FE54F6CCDD86" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31B4234D-B1D4-48F7-8962-43003B2E9CDE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BD22854A78593C928604530566C32E5F7AB0CBAD" : "ios_app_guard\/",
+    "99182CFD44B9B48629862FD77505FE54F6CCDD86" : "class-dump"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ios-class-guard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios-class-guard.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/polidea\/ios-class-guard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99182CFD44B9B48629862FD77505FE54F6CCDD86"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.ilegendsoft.com:iosdev\/ios_app_guard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BD22854A78593C928604530566C32E5F7AB0CBAD"
+    }
+  ]
+}

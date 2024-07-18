@@ -419,9 +419,9 @@ int main(int argc, char *argv[])
                         visitor.symbolsFilePath = symbolsPath;
                         [classDump recursivelyVisit:visitor];
 
-                        CDXibStoryBoardProcessor *processor = [[CDXibStoryBoardProcessor alloc] init];
-                        processor.xibBaseDirectory = xibBaseDirectory;
-                        [processor obfuscateFilesUsingSymbols:visitor.symbols];
+//                        CDXibStoryBoardProcessor *processor = [[CDXibStoryBoardProcessor alloc] init];
+//                        processor.xibBaseDirectory = xibBaseDirectory;
+//                        [processor obfuscateFilesUsingSymbols:visitor.symbols];
 
                         if (podsPath) {
                             CDPbxProjectProcessor *projectProcessor = [[CDPbxProjectProcessor alloc] init];
